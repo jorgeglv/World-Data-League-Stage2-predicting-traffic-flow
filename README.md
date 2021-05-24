@@ -36,7 +36,7 @@ other data.
 
 **Solution**
 
-First, we have built a generic SEASONAL ARIMA model to predict traffic flow in the city. As the traffic varies greatly depending on location, we have grouped streets according to flow similarity into three clusters. On top of that, we have fit a SARIMA model for each cluster to better represent and forecast traffic flow.
+First, we have built a generic SEASONAL ARIMA model to predict traffic flow in Porto. As the traffic varies greatly depending on location, we have grouped streets according to flow similarity into three clusters. On top of that, we have fit a SARIMA model for each cluster to better represent and forecast traffic flow.
 
 As for the second and third objectives, we have done an exhaustive analysis of variables that may affect traffic intensity, not only those provided in the challenge like weather conditions and POI's, but we have included COVID incidence. This is better described in the section "Assessing dimensions impacting traffic-flow," but we have reached the conclusion that the main factor that affects traffic intensity in the POI's, followed by weather conditions.
 
