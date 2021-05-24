@@ -36,3 +36,11 @@ other data.
 
 **Solution**
 
+First, we have built a generic SEASONAL ARIMA model to predict traffic flow in the city. As the traffic varies greatly depending on location, we have grouped streets according to flow similarity into three clusters. On top of that, we have fit a SARIMA model for each cluster to better represent and forecast traffic flow.
+
+As for the second and third objectives, we have done an exhaustive analysis of variables that may affect traffic intensity, not only those provided in the challenge like weather conditions and POI's, but we have included COVID incidence. This is better described in the section "Assessing dimensions impacting traffic-flow," but we have reached the conclusion that the main factor that affects traffic intensity in the POI's, followed by weather conditions.
+
+COVID doesn't seem to affect traffic, but this is because the timeframe corresponds to 2021 between January and April while Portugal has been locked down. For this reason, changes in COVID incidence don't affect traffic flow as it has already influenced the overall situation.
+
+With all this information, we can predict traffic peak hours and its relationship with POIs, weather, and COVID.
+Some measures can be implemented to reduce traffic. For example, to increase public transportation services at hours where intensity is higher, thus reducing intensity and also reducing carbon footprint in general.
